@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #969690;
+}
+.header{
+    font-size: 41px;
+    color: grey;
+    text-shadow: 20px 2px 25px;
+    font-family: georgia;
+    text-align: center;
+}
+.amount {
+    font-size: 30px;
+    margin-top: 44px;
+}
+input.text {
+    height: 27px;
+    width: 30rem;
+    margin-left: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    border:none;
+   box-shadow: 10px 10px 10px grey;
+}
+.dropdown {
+    font-size: 35px;
+    margin-top: 114px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+select {
+    height: 38px;
+    width: 71px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button.btn {
+    border: none;
+    border-radius: 14px;
+    width: 319px;
+    height: 48px;
+    box-shadow: 10px 10px 20px grey;
+    font-size: 21px;
+    cursor: pointer;
+    margin-left: 188px;
+    margin-top: 89px;
+    background-color: burlywood;
+    color: white;
+    font-weight: bolder;
+}
+form.currency {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width:47vw;
+    height:90vh;
+    background-color: white;
+    margin-left:349px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px darkslategrey;
+    margin-top: 27px;
+}
+.msg{
+    height: 43px;
+    width: 224px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+    margin-left: 47px;
+    font-size: 32px;
+    text-align: center;
+}
+.result{
+    margin-top: 71px;
+    font-size: 30px;
+    margin-top: 44px;
+    display: flex;
+}
+img {
+    height: 57px;
+    width: 48px;
+}
+.selecting {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 150px;
+}
+.converting {
+    margin-right: 2rem;
+    border: 1px solid black;
+    border-radius: 13px;
+    display: flex;
+    width:150px;
+    justify-content: center;
+}
