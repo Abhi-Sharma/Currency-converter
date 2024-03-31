@@ -40,10 +40,11 @@ btn.addEventListener("click", async (evt)=>{
     let url = `${base_url}&from=${fromCode.value}&to=${toCode.value}`;
     console.log(url);
     let response = await fetch(url);
+    console.log(response);
     let data = await response.json();
     let data1 = data.rates;
     let rate = data1[toCode.value];
     let result = amtValue * rate;
     let div = document.querySelector(".msg");
     div.innerText = result;
-})
+});
